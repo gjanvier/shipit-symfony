@@ -1,6 +1,6 @@
 {
   "name": "shipit-symfony",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Deploy symfony projects with shipit",
   "main": "index.js",
   "scripts": {
