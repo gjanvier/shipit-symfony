@@ -79,3 +79,8 @@ Clear cache (dev and prod) before the new release replaces the current one.
 
 #### `symfony:assets`
 Dump Assetic and install assets before the new release replaces the current one.
+
+## Dependencies
+
+This module has been tested with shipit-shared v4.1.4. Older versions may work,
+but shipit-symfony requires event `sharedEnd` to be triggered (not in oldest version).
