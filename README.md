@@ -35,8 +35,10 @@ module.exports = function (shipit) {
       keepReleases: 3,
       shallowClone: true,
 
-      // These files will not be transfered
-      ignores: ['.git', 'node_modules', 'web/bundles', 'composer.phar', 'app/cache', 'app/logs'],
+      // These files/folders will not be transfered
+      ignores: ['.git', 'node_modules',
+                // usual folders for symfony applications
+                'web/bundles', 'composer.phar', 'app/cache', 'app/logs'],
 
       // Configuration for shipit-shared (great module !)
       shared: {
@@ -52,9 +54,8 @@ module.exports = function (shipit) {
 
       symfony: {
         // By default, cache will be cleared and assets will be install on
-        // 'updated' event.
-        // If you use 'shipit-shared', specify 'sharedEnd' event to make that task start
-        // at the right moment.
+        // 'updated' event. If you use 'shipit-shared', specify 'sharedEnd'
+        // event to make that task start at the right moment.
         installOn: 'sharedEnd'
       }
     }
