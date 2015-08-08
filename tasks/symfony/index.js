@@ -24,7 +24,8 @@ module.exports = function (gruntOrShipit) {
 
   shipit.on('start', function() {
     // Prepare new release on server before publish
-    var event = shipit.config.symfony.installOn || 'updated'; // or 'sharedEnd'
+    var event = shipit.config.symfony.installOn;
+    event = event !== undefined ? event : 'updated'; // or 'sharedEnd'
     shipit.on(event, function() {
       shipit.start('symfony:install');
     });
