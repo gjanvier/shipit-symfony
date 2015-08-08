@@ -1,0 +1,27 @@
+{
+  "name": "shipit-symfony",
+  "version": "0.0.1",
+  "description": "Deploy symfony projects with shipit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjanvier/shipit-symfony.git"
+  },
+  "keywords": [
+    "shipit",
+    "symfony",
+    "deploy"
+  ],
+  "author": "gjanvier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gjanvier/shipit-symfony/issues"
+  },
+  "homepage": "https://github.com/gjanvier/shipit-symfony#readme",
+  "dependencies": {
+    "shipit-utils": "^1.3.0"
+  }
+}
