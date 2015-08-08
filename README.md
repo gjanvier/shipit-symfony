@@ -1,11 +1,11 @@
 # shipit-symfony
 
-Deploy symfony projects with [Shipit](https://github.com/shipitjs/shipit).
+Deploy symfony projects with Shipit.
 
-Shipit is a brilliant alternative to Capistrano to automate the deployment of
-applications on remote servers. This module bring some complementary tasks to
-manage [Symfony](http://symfony.com) applications, in the manner of
-[Capifony](https://github.com/everzet/capifony).
+[Shipit](https://github.com/shipitjs/shipit) is a brilliant alternative to
+Capistrano to automate the deployment of applications on remote servers. This
+module bring some complementary tasks to manage [Symfony](http://symfony.com)
+applications, in the manner of [Capifony](https://github.com/everzet/capifony).
 
 **Features**
 
