@@ -14,6 +14,12 @@ applications, in the manner of [Capifony](https://github.com/everzet/capifony).
  - Install assets
  - Easy integration with [shipit-shared](https://github.com/timkelty/shipit-shared)
 
+**Limitations**
+
+ - For the moment, does not work well to create the project on the server at the 1st
+run. When using shipit-shared: shared files must be created manually before (so that
+they will be symlinked during the deployment process). Especially for parameters.yml
+
 ## Install
 
 ```
